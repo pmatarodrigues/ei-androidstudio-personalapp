@@ -22,27 +22,27 @@
         >
 
         <Button
-            android:id="@+id/btn_skills"
+            android:id="@+id/btn_habilitacoes"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
             android:padding="10dp"
-            android:text="Skills"
+            android:text="@string/titulo_habilitacoes"
             android:textSize="15dp"
-            android:drawableTop="@drawable/skills"
+            android:drawableTop="@drawable/habilitacoes"
             android:drawablePadding="10dp"
             android:background="@drawable/botao_round"
             android:layout_marginEnd="20dp"/>
 
         <Button
-            android:id="@+id/btn_timeline"
+            android:id="@+id/btn_cronologia"
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
             android:padding="10dp"
-            android:text="Timeline"
+            android:text="@string/titulo_cronologia"
             android:textSize="15dp"
-            android:drawableTop="@drawable/timeline"
+            android:drawableTop="@drawable/cronologia"
             android:drawablePadding="10dp"
             android:background="@drawable/botao_round"/>
 
@@ -60,7 +60,7 @@
             android:layout_height="100dp"
             android:layout_weight="1"
             android:padding="10dp"
-            android:text="Interesses"
+            android:text="@string/titulo_interesses"
             android:textSize="15dp"
             android:drawableTop="@drawable/interesses"
             android:drawablePadding="10dp"
@@ -73,7 +73,7 @@
             android:layout_height="100dp"
             android:layout_weight="1"
             android:padding="10dp"
-            android:text="De Onde Venho"
+            android:text="@string/titulo_de_onde_venho"
             android:textSize="15dp"
             android:drawableTop="@drawable/deondevenho"
             android:drawablePadding="10dp"
@@ -88,7 +88,7 @@
         android:layout_margin="30dp"
         android:layout_gravity="center"
         android:textColor="@android:color/white"
-        android:text="Sobre mim"
+        android:text="@string/titulo_sobre_mim"
         android:background="@drawable/botao_degrade"/>
 
 

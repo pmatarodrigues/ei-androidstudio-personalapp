@@ -10,16 +10,16 @@
             android:title="Inicio" />
         <item
             android:id="@+id/nav_skills"
-            android:icon="@drawable/skills"
-            android:title="Skills" />
+            android:icon="@drawable/habilitacoes"
+            android:title="@string/titulo_habilitacoes" />
         <item
-            android:id="@+id/nav_timeline"
-            android:icon="@drawable/timeline"
-            android:title="Timeline" />
+            android:id="@+id/nav_cronologia"
+            android:icon="@drawable/cronologia"
+            android:title="@string/titulo_cronologia" />
         <item
             android:id="@+id/nav_interesses"
             android:icon="@drawable/interesses"
-            android:title="Interesses" />
+            android:title="@string/titulo_interesses" />
 
     </group>
 
@@ -28,11 +28,11 @@
             <item
                 android:id="@+id/nav_deondevenho"
                 android:icon="@drawable/deondevenho"
-                android:title="De onde venho" />
+                android:title="@string/titulo_de_onde_venho" />
             <item
                 android:id="@+id/nav_sobremim"
                 android:icon="@drawable/quemsou"
-                android:title="Sobre mim" />
+                android:title="@string/titulo_sobre_mim" />
         </menu>
     </item>
 
