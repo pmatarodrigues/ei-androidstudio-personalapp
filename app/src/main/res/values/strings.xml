@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pedro Mata Rodrigues</string>
+    <string name="navigation_drawer_open">Abrir Menu</string>
+    <string name="navigation_drawer_close">Fechar Menu</string>
+    <string name="nav_header_title">Pedro Mata Rodrigues</string>
+    <string name="nav_header_subtitle">Engenharia Informática</string>
+    <string name="nav_header_desc">Título</string>
+    <string name="action_linkedin">Linkedin</string>
+    <string name="action_github">Github</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
