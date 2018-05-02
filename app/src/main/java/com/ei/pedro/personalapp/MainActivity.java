@@ -1,12 +1,6 @@
 package com.ei.pedro.personalapp;
 
-import android.app.FragmentManager;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -93,19 +87,18 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_skills) {
             Toast.makeText(this, "Skills", Toast.LENGTH_SHORT).show();
 
-            Skills skills = new Skills();
+            Habilitacoes habilitacoes = new Habilitacoes();
             android.support.v4.app.FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction()
-                    .replace(R.id.fragment_layout, skills, skills.getTag())
+                    .replace(R.id.fragment_layout, habilitacoes, habilitacoes.getTag())
                     .commit();
+        } else if (id == R.id.nav_cronologia) {
+            Toast.makeText(this, "Cronologia", Toast.LENGTH_SHORT).show();
 
-        } else if (id == R.id.nav_timeline) {
-            Toast.makeText(this, "Timeline", Toast.LENGTH_SHORT).show();
-
-            Timeline timeline = new Timeline();
+            Cronologia cronologia = new Cronologia();
             android.support.v4.app.FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction()
-                    .replace(R.id.fragment_layout, timeline, timeline.getTag())
+                    .replace(R.id.fragment_layout, cronologia, cronologia.getTag())
                     .commit();
 
         } else if (id == R.id.nav_interesses) {

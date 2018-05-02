@@ -11,10 +11,10 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Skills extends Fragment {
+public class Habilitacoes extends Fragment {
 
 
-    public Skills() {
+    public Habilitacoes() {
         // Required empty public constructor
     }
 
@@ -23,7 +23,7 @@ public class Skills extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_skills, container, false);
+        return inflater.inflate(R.layout.fragment_habilitacoes, container, false);
     }
 
 }

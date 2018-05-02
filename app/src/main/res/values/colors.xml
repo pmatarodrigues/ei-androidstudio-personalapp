@@ -4,5 +4,9 @@
     <color name="colorPrimaryDark">#ba000d</color>
     <color name="colorAccent">#ff7961</color>
     <color name="colorSecondary">#263238</color>
-    <color name="colorBotao">#CFD8DC</color>
+    <color name="colorBotao">#FFFFFF</color>
+    <color name="colorbackground">#FAFAFA</color>
+    <color name="sombra">#BDBDBD</color>
+    <color name="cinzaClaro">#EEEEEE</color>
+    <color name="acinzentado">#BDBDBD</color>
 </resources>

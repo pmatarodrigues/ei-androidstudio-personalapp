@@ -1,9 +1,9 @@
 package com.ei.pedro.personalapp;
 
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,7 +16,7 @@ import android.widget.Button;
  */
 public class Inicio extends Fragment implements View.OnClickListener{
 
-    Button btnskills, btninteresses, btntimeline, btndeondevenho, btnsobremim;
+    Button btnhabilitacoes, btninteresses, btncronologia, btndeondevenho, btnsobremim;
 
     public Inicio() {
         // Required empty public constructor
@@ -27,14 +27,14 @@ public class Inicio extends Fragment implements View.OnClickListener{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view =  inflater.inflate(R.layout.fragment_inicio, container, false);
-        btnskills = view.findViewById(R.id.btn_skills);
-        btnskills.setOnClickListener(this);
+        btnhabilitacoes = view.findViewById(R.id.btn_habilitacoes);
+        btnhabilitacoes.setOnClickListener(this);
 
         btninteresses = view.findViewById(R.id.btn_interesses);
         btninteresses.setOnClickListener(this);
 
-        btntimeline = view.findViewById(R.id.btn_timeline);
-        btntimeline.setOnClickListener(this);
+        btncronologia = view.findViewById(R.id.btn_cronologia);
+        btncronologia.setOnClickListener(this);
 
         btndeondevenho = view.findViewById(R.id.btn_deondevenho);
         btndeondevenho.setOnClickListener(this);
@@ -47,39 +47,37 @@ public class Inicio extends Fragment implements View.OnClickListener{
     @Override
     public void onClick(View v){
         switch (v.getId()){
-            case R.id.btn_skills:
-                Skills skills = new Skills();
+            case R.id.btn_habilitacoes:
+                Habilitacoes habilitacoes = new Habilitacoes();
                 FragmentTransaction manager = getFragmentManager().beginTransaction();
-                manager.replace(R.id.fragment_layout, skills, skills.getTag()).commit();
-        }
+                manager.replace(R.id.fragment_layout, habilitacoes, habilitacoes.getTag()).commit();
+                break;
 
-        switch (v.getId()){
-            case R.id.btn_timeline:
-                Timeline timeline = new Timeline();
-                FragmentTransaction manager = getFragmentManager().beginTransaction();
-                manager.replace(R.id.fragment_layout, timeline, timeline.getTag()).commit();
-        }
-
-        switch (v.getId()){
             case R.id.btn_interesses:
                 Interesses interesses = new Interesses();
-                FragmentTransaction manager = getFragmentManager().beginTransaction();
+                manager = getFragmentManager().beginTransaction();
                 manager.replace(R.id.fragment_layout, interesses, interesses.getTag()).commit();
-        }
+                break;
 
-        switch (v.getId()){
+            case R.id.btn_cronologia:
+                Cronologia cronologia = new Cronologia();
+                manager = getFragmentManager().beginTransaction();
+                manager.replace(R.id.fragment_layout, cronologia, cronologia.getTag()).commit();
+                break;
+
             case R.id.btn_deondevenho:
                 DeOndeVenho deOndeVenho = new DeOndeVenho();
-                FragmentTransaction manager = getFragmentManager().beginTransaction();
+                manager = getFragmentManager().beginTransaction();
                 manager.replace(R.id.fragment_layout, deOndeVenho, deOndeVenho.getTag()).commit();
-        }
+                break;
 
-        switch (v.getId()){
             case R.id.btn_sobremim:
                 SobreMim sobreMim = new SobreMim();
-                FragmentTransaction manager = getFragmentManager().beginTransaction();
+                manager = getFragmentManager().beginTransaction();
                 manager.replace(R.id.fragment_layout, sobreMim, sobreMim.getTag()).commit();
+                break;
         }
+
     }
 
 
