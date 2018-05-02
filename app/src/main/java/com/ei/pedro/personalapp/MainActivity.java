@@ -1,5 +1,8 @@
 package com.ei.pedro.personalapp;
 
+import android.app.Dialog;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -9,10 +12,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    Dialog ipvc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +36,8 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        ipvc = new Dialog(this);
 
         Inicio inicio = new Inicio();
         android.support.v4.app.FragmentManager manager = getSupportFragmentManager();
@@ -127,11 +136,24 @@ public class MainActivity extends AppCompatActivity
             manager.beginTransaction()
                     .replace(R.id.fragment_layout, sobreMim, sobreMim.getTag())
                     .commit();
-
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void showPopup(View v){
+        TextView fecharPopup;
+        ipvc.setContentView(R.layout.popup_ipvc);
+        fecharPopup = (TextView) ipvc.findViewById(R.id.fechar_popup);
+        fecharPopup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ipvc.dismiss();
+            }
+        });
+        ipvc.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        ipvc.show();
     }
 }

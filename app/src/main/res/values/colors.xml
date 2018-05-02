@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#7C4DFF</color>
-    <color name="colorPrimaryDark">#7C4DFF</color>
-    <color name="colorAccent">#7C4DFF</color>
-    <color name="colorSecondary">#263238</color>
+    <color name="colorPrimary">#ED2B3F</color>
+    <color name="colorPrimaryDark">#ED2B3F </color>
+    <color name="colorAccent">#ED2B3F</color>
+    <color name="colorSecondary">#14151c  </color>
     <color name="colorBotao">#FFFFFF</color>
     <color name="colorbackground">#FAFAFA</color>
     <color name="sombra">#BDBDBD</color>
     <color name="cinzaClaro">#EEEEEE</color>
     <color name="acinzentado">#BDBDBD</color>
     
-    <color name="skill_color">#9575CD</color>
+    <color name="skill_color">#1D2033 </color>
 </resources>
 <!--
 

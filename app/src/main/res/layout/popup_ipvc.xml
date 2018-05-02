@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="380dp"
+    android:orientation="vertical"
+    android:background="@color/colorSecondary"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/fechar_popup"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textColor="@android:color/white"
+        android:text="X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:textAlignment="center"
+        android:paddingTop="11dp"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ipvc"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:text="Instituto Politénico de Viana do Castelo"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Situado em Viana do Castelo, o IPVC é um símbolo da região e tem contribuido para a divulgação do nome da cidade. É constituído por 6 escolas sendo o curso de Engenharia Informática lecionado na Escola Superior de Tecnologia e Gestão."
+        android:textColor="@android:color/white"
+        android:textSize="12dp"
+        />
+
+</LinearLayout>
