@@ -4,36 +4,178 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Habilitacoes">
+    tools:context=".Habilitacoes"
+    >
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Habilitações"
-        android:paddingTop="30dp"
-        android:textAllCaps="true"
-        android:textSize="30dp" />
+        android:orientation="vertical"
+        android:layout_margin="20dp">
 
-    <TextView
-        android:layout_width="match_parent"
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Habilitações"
+            android:textAllCaps="true"
+            android:textSize="30dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/botao_round"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:text="Engenharia Informática \n 2º ano"
+                android:paddingTop="30dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="IPVC"
+                android:paddingTop="80dp"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Java"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:paddingLeft="20dp"
-        android:paddingTop="20dp"
-        />
 
-    <ProgressBar
-        android:layout_width="match_parent"
-        android:layout_height="10dp"
-        android:layout_gravity="center"
-        android:progressDrawable="@drawable/progress_bar_custom"
-        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
-        android:indeterminate="false"
-        android:max="100"
-        android:progress="70"/>
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skills"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            />
+
+        <!-- SKILLS -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            >
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="25dp"
+                android:background="@drawable/skill_bar"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Photoshop"
+                android:textSize="15dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:background="@drawable/skill_bar"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java"
+                android:textSize="15dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:background="@drawable/skill_bar"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SQL"
+                android:textSize="15dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <View
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:background="@drawable/skill_bar"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:textSize="15dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
 
 
 
