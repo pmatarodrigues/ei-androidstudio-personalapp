@@ -77,9 +77,10 @@
                         </option>
                         <option name="values">
                           <map>
+                            <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="14151c" />
-                            <entry key="outputName" value="video" />
-                            <entry key="sourceFile" value="C:\Users\pedro\Downloads\comer.svg" />
+                            <entry key="outputName" value="comando" />
+                            <entry key="sourceFile" value="C:\Users\pedro\Downloads\comando.svg" />
                           </map>
                         </option>
                       </PersistentState>

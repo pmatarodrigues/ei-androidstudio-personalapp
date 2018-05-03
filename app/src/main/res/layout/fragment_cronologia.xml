@@ -20,21 +20,59 @@
             android:background="@color/colorSecondary"
             />
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="20dp">
+        android:layout_marginTop="20dp">
 
 
         <View
             android:layout_width="match_parent"
             android:layout_height="600dp"
             android:background="@drawable/botao_round"
+
             />
 
 
 <!-- LINHA -->
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/simbolo_timeline"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="30dp"
+            />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/botao_degrade"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="490dp"
+            />
+
+        <View
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:background="@drawable/botao_degrade"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="510dp"
+            />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="6dp"
+            android:background="@drawable/botao_degrade"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="530dp"
+            />
+
         <View
             android:layout_width="3dp"
             android:layout_height="60dp"
@@ -369,7 +407,9 @@
 
         </LinearLayout>
 
+
     </RelativeLayout>
+</LinearLayout>
 
     </RelativeLayout>
 

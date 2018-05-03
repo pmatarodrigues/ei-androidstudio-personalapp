@@ -30,10 +30,9 @@
                 android:layout_marginTop="20dp"
                 >
 
-
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="230dp"
+                    android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:background="@drawable/botao_round"
                     />
@@ -65,29 +64,10 @@
 
 
                         <RelativeLayout
-                            android:layout_width="0dp"
+                            android:layout_width="match_parent"
                             android:layout_height="60dp"
-                            android:layout_weight="1"
-                            android:background="@drawable/mini_button"
-                            >
-
-                            <ImageView
-                                android:layout_width="30dp"
-                                android:layout_height="30dp"
-                                android:layout_centerInParent="true"
-                                android:src="@drawable/video"
-                                />
-
-                        </RelativeLayout>
-
-                        <RelativeLayout
-                            android:layout_width="0dp"
-                            android:layout_height="60dp"
-                            android:layout_weight="1"
                             android:background="@color/colorSecondary"
                             >
-
-
 
                             <ImageView
                                 android:layout_width="30dp"
@@ -113,6 +93,22 @@
                             android:layout_width="0dp"
                             android:layout_height="60dp"
                             android:layout_weight="1"
+                            android:background="@drawable/mini_button"
+                            >
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/estadio"
+                                />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_weight="1"
                             android:background="@color/colorSecondary"
                             >
 
@@ -126,30 +122,23 @@
                         </RelativeLayout>
 
 
-                        <Button
-                            android:layout_width="0dp"
-                            android:layout_height="60dp"
-                            android:layout_weight="1"
-                            android:background="@drawable/mini_button"
-                            android:text="Futebol"
-                            android:textSize="10dp"
-                            />
-
                         <RelativeLayout
                             android:layout_width="0dp"
                             android:layout_height="60dp"
                             android:layout_weight="1"
-                            android:background="@color/colorSecondary"
+                            android:background="@drawable/mini_button"
                             >
 
                             <ImageView
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
                                 android:layout_centerInParent="true"
-                                android:src="@drawable/comer"
+                                android:src="@drawable/comando"
                                 />
 
                         </RelativeLayout>
+
+
 
                     </LinearLayout>
 
@@ -165,6 +154,22 @@
                             android:layout_height="30dp"
                             android:layout_centerInParent="true"
                             android:src="@drawable/comer"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/mini_button"
+                        >
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/video"
                             />
 
                     </RelativeLayout>
