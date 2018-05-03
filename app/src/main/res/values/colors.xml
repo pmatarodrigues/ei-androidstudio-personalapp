@@ -3,6 +3,9 @@
     <color name="colorPrimary">#ED2B3F</color>
     <color name="colorPrimaryDark">#ED2B3F </color>
     <color name="colorAccent">#ED2B3F</color>
+
+    <color name="colorPrimaryEscuro">#cd2536</color>
+
     <color name="colorSecondary">#14151c  </color>
     <color name="colorBotao">#FFFFFF</color>
     <color name="colorbackground">#FAFAFA</color>

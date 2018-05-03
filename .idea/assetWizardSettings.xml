@@ -67,7 +67,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/EI/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_work_black_24dp.xml" />
+                                      <entry key="url" value="jar:file:/C:/EI/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/av/ic_videocam_black_24dp.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -77,12 +77,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="ffffff" />
-                            <entry key="height" value="15" />
-                            <entry key="outputName" value="multiusos" />
-                            <entry key="overrideSize" value="true" />
-                            <entry key="sourceFile" value="C:\Users\pedro" />
-                            <entry key="width" value="15" />
+                            <entry key="color" value="14151c" />
+                            <entry key="outputName" value="video" />
+                            <entry key="sourceFile" value="C:\Users\pedro\Downloads\comer.svg" />
                           </map>
                         </option>
                       </PersistentState>

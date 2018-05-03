@@ -91,11 +91,23 @@
     </RelativeLayout>
 
 
+    <!-- SKILLS -->
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:background="@drawable/botao_round"
+        >
+
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:orientation="vertical">
+        android:orientation="vertical"
+        >
 
         <TextView
             android:layout_width="match_parent"
@@ -108,15 +120,16 @@
 
         <!-- SKILLS -->
         <RelativeLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="10dp"
             >
 
             <View
                 android:layout_width="300dp"
-                android:layout_height="25dp"
+                android:layout_height="8dp"
                 android:background="@drawable/skill_bar"
+                android:layout_marginTop="20dp"
                 />
 
             <TextView
@@ -124,7 +137,7 @@
                 android:layout_height="wrap_content"
                 android:text="Photoshop"
                 android:textSize="15dp"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textStyle="bold"
                 android:paddingLeft="20dp"
                 />
@@ -138,8 +151,9 @@
 
             <View
                 android:layout_width="200dp"
-                android:layout_height="25dp"
+                android:layout_height="8dp"
                 android:background="@drawable/skill_bar"
+                android:layout_marginTop="20dp"
                 />
 
             <TextView
@@ -147,7 +161,7 @@
                 android:layout_height="wrap_content"
                 android:text="Java"
                 android:textSize="15dp"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textStyle="bold"
                 android:paddingLeft="20dp"
                 />
@@ -163,8 +177,9 @@
 
             <View
                 android:layout_width="100dp"
-                android:layout_height="25dp"
+                android:layout_height="8dp"
                 android:background="@drawable/skill_bar"
+                android:layout_marginTop="20dp"
                 />
 
             <TextView
@@ -172,7 +187,7 @@
                 android:layout_height="wrap_content"
                 android:text="SQL"
                 android:textSize="15dp"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textStyle="bold"
                 android:paddingLeft="20dp"
                 />
@@ -187,8 +202,9 @@
 
             <View
                 android:layout_width="150dp"
-                android:layout_height="25dp"
+                android:layout_height="8dp"
                 android:background="@drawable/skill_bar"
+                android:layout_marginTop="20dp"
                 />
 
             <TextView
@@ -196,7 +212,7 @@
                 android:layout_height="wrap_content"
                 android:text="C"
                 android:textSize="15dp"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textStyle="bold"
                 android:paddingLeft="20dp"
                 />
@@ -204,6 +220,9 @@
         </RelativeLayout>
 
     </LinearLayout>
+
+    </RelativeLayout>
+
 
 
 
