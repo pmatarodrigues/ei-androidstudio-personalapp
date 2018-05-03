@@ -35,7 +35,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="600dp"
-            android:background="@drawable/botao_round"
+            android:background="@drawable/background_botao_round"
 
             />
 
@@ -44,7 +44,7 @@
         <View
             android:layout_width="10dp"
             android:layout_height="10dp"
-            android:background="@drawable/simbolo_timeline"
+            android:background="@drawable/background_simbolo_timeline"
             android:layout_marginLeft="39dp"
             android:layout_marginTop="30dp"
             />
@@ -52,7 +52,7 @@
         <View
             android:layout_width="10dp"
             android:layout_height="10dp"
-            android:background="@drawable/botao_degrade"
+            android:background="@drawable/background_botao_degrade"
             android:layout_marginLeft="38dp"
             android:layout_marginTop="490dp"
             />
@@ -60,7 +60,7 @@
         <View
             android:layout_width="7dp"
             android:layout_height="7dp"
-            android:background="@drawable/botao_degrade"
+            android:background="@drawable/background_botao_degrade"
             android:layout_marginLeft="39dp"
             android:layout_marginTop="510dp"
             />
@@ -68,7 +68,7 @@
         <View
             android:layout_width="5dp"
             android:layout_height="6dp"
-            android:background="@drawable/botao_degrade"
+            android:background="@drawable/background_botao_degrade"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="530dp"
             />
@@ -118,7 +118,7 @@
                 <RelativeLayout
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:background="@drawable/simbolo_timeline">
+                    android:background="@drawable/background_simbolo_timeline">
 
                     <ImageView
                         android:layout_width="30dp"
@@ -135,7 +135,7 @@
                         android:layout_width="350dp"
                         android:layout_height="60dp"
                         android:layout_marginLeft="20dp"
-                        android:background="@drawable/mini_button"
+                        android:background="@drawable/background_mini_button"
                         />
 
                     <View
@@ -194,13 +194,13 @@
                 <RelativeLayout
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:background="@drawable/simbolo_timeline">
+                    android:background="@drawable/background_simbolo_timeline">
 
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_centerInParent="true"
-                        android:src="@drawable/voluntariado"
+                        android:src="@drawable/timeline_icon_voluntariado"
                         />
 
                 </RelativeLayout>
@@ -212,7 +212,7 @@
                         android:layout_width="350dp"
                         android:layout_height="60dp"
                         android:layout_marginLeft="20dp"
-                        android:background="@drawable/mini_button"
+                        android:background="@drawable/background_mini_button"
                         />
                     <View
                         android:layout_width="350dp"
@@ -268,13 +268,13 @@
                 <RelativeLayout
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:background="@drawable/simbolo_timeline">
+                    android:background="@drawable/background_simbolo_timeline">
 
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_centerInParent="true"
-                        android:src="@drawable/multiusos"/>
+                        android:src="@drawable/timeline_icon_multiusos"/>
 
                 </RelativeLayout>
                 <RelativeLayout
@@ -285,7 +285,7 @@
                         android:layout_width="350dp"
                         android:layout_height="60dp"
                         android:layout_marginLeft="20dp"
-                        android:background="@drawable/mini_button"
+                        android:background="@drawable/background_mini_button"
                         />
                     <View
                         android:layout_width="350dp"
@@ -343,7 +343,7 @@
                 <RelativeLayout
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:background="@drawable/simbolo_timeline">
+                    android:background="@drawable/background_simbolo_timeline">
 
                     <ImageView
                         android:layout_width="30dp"
@@ -360,7 +360,7 @@
                         android:layout_width="350dp"
                         android:layout_height="70dp"
                         android:layout_marginLeft="20dp"
-                        android:background="@drawable/mini_button"
+                        android:background="@drawable/background_mini_button"
                         />
                     <View
                         android:layout_width="350dp"

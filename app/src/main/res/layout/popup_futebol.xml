@@ -24,7 +24,8 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/vitoria_logo"
+        android:src="@drawable/interesses_pic_vitoria"
+        android:scaleType="centerCrop"
         android:layout_marginBottom="10dp"
         />
 

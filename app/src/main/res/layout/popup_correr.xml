@@ -24,8 +24,9 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/programacao_pic"
+        android:src="@drawable/interesses_pic_viajar"
         android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
         />
 
     <TextView
@@ -33,7 +34,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:text="Correr"
+        android:text="Explorar"
         android:textStyle="bold"
         />
 

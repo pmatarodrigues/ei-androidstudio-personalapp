@@ -69,7 +69,7 @@
                 android:id="@+id/btn_deondevenho"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:drawableTop="@drawable/deondevenho_mini"
+                android:drawableTop="@drawable/icon_deondevenho_mini"
                 android:layout_gravity="center"
                 android:background="@color/colorBotao"
                 />
@@ -91,7 +91,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/botao_round"
+            android:background="@drawable/background_botao_round"
             />
 
         <TextView
@@ -134,7 +134,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="195dp"
                 android:gravity="center"
-                android:background="@drawable/botao_degrade"
+                android:background="@drawable/background_botao_degrade"
                 android:layout_centerHorizontal="true"
                 android:text="@string/titulo_sobre_mim"
                 android:textColor="@android:color/white"/>

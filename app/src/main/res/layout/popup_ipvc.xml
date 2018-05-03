@@ -24,7 +24,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/ipvc"
+        android:src="@drawable/habilitacoes_pic_ipvc"
         android:layout_marginBottom="10dp"
         />
 

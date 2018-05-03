@@ -34,7 +34,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:background="@drawable/botao_round"
+                    android:background="@drawable/background_botao_round"
                     />
 
 
@@ -75,7 +75,7 @@
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
                                 android:layout_centerInParent="true"
-                                android:src="@drawable/programacao"
+                                android:src="@drawable/interesses_icon_programacao"
                                 />
 
                         </RelativeLayout>
@@ -96,7 +96,7 @@
                             android:layout_width="0dp"
                             android:layout_height="60dp"
                             android:layout_weight="1"
-                            android:background="@drawable/mini_button"
+                            android:background="@drawable/background_mini_button"
                             android:onClick="showPopup"
                             >
 
@@ -104,7 +104,7 @@
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
                                 android:layout_centerInParent="true"
-                                android:src="@drawable/estadio"
+                                android:src="@drawable/interesses_icon_estadio"
                                 />
 
                         </RelativeLayout>
@@ -122,7 +122,7 @@
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
                                 android:layout_centerInParent="true"
-                                android:src="@drawable/correr"
+                                android:src="@drawable/interesses_icon_correr"
                                 />
 
                         </RelativeLayout>
@@ -133,7 +133,7 @@
                             android:layout_width="0dp"
                             android:layout_height="60dp"
                             android:layout_weight="1"
-                            android:background="@drawable/mini_button"
+                            android:background="@drawable/background_mini_button"
                             android:onClick="showPopup"
                             >
 
@@ -141,7 +141,7 @@
                                 android:layout_width="30dp"
                                 android:layout_height="30dp"
                                 android:layout_centerInParent="true"
-                                android:src="@drawable/comando"
+                                android:src="@drawable/interesses_icon_comando"
                                 />
 
                         </RelativeLayout>
@@ -163,7 +163,7 @@
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:layout_centerInParent="true"
-                            android:src="@drawable/comer"
+                            android:src="@drawable/interesses_icon_comer"
                             />
 
                     </RelativeLayout>
@@ -173,7 +173,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:layout_marginTop="30dp"
-                        android:background="@drawable/mini_button"
+                        android:background="@drawable/background_mini_button"
                         android:onClick="showPopup"
                         >
 
@@ -181,7 +181,7 @@
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:layout_centerInParent="true"
-                            android:src="@drawable/video"
+                            android:src="@drawable/interesses_icon_video"
                             />
 
                     </RelativeLayout>

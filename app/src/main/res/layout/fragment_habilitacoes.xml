@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:layout_centerHorizontal="true"
-                android:background="@drawable/botao_round"
+                android:background="@drawable/background_botao_round"
                 />
 
 
@@ -79,7 +79,7 @@
                     android:id="@+id/pic_ipvc"
                     android:layout_width="wrap_content"
                     android:layout_height="80dp"
-                    android:src="@drawable/ipvc"
+                    android:src="@drawable/habilitacoes_pic_ipvc"
                     android:onClick="showPopup"
                     />
             </LinearLayout>
@@ -100,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:padding="20dp"
-        android:background="@drawable/botao_round"
+        android:background="@drawable/background_botao_round"
         >
 
 
@@ -129,7 +129,7 @@
             <View
                 android:layout_width="300dp"
                 android:layout_height="8dp"
-                android:background="@drawable/skill_bar"
+                android:background="@drawable/background_skill_bar"
                 android:layout_marginTop="20dp"
                 />
 
@@ -153,7 +153,7 @@
             <View
                 android:layout_width="200dp"
                 android:layout_height="8dp"
-                android:background="@drawable/skill_bar"
+                android:background="@drawable/background_skill_bar"
                 android:layout_marginTop="20dp"
                 />
 
@@ -179,7 +179,7 @@
             <View
                 android:layout_width="100dp"
                 android:layout_height="8dp"
-                android:background="@drawable/skill_bar"
+                android:background="@drawable/background_skill_bar"
                 android:layout_marginTop="20dp"
                 />
 
@@ -204,7 +204,7 @@
             <View
                 android:layout_width="150dp"
                 android:layout_height="8dp"
-                android:background="@drawable/skill_bar"
+                android:background="@drawable/background_skill_bar"
                 android:layout_marginTop="20dp"
                 />
 
