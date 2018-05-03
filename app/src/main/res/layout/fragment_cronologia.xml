@@ -1,14 +1,376 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Cronologia">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorSecondary"
+            />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:background="@drawable/botao_round"
+            />
+
+
+<!-- LINHA -->
+        <View
+            android:layout_width="3dp"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="30dp"
+            />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="400dp"
+            android:background="@color/acinzentado"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="90dp"
+            />
+        <!-- -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="O Meu Percurso"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorSecondary"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"
+                />
+
+            <!-- IPVC -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/simbolo_timeline">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/logoipvc"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <View
+                        android:layout_width="350dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/mini_button"
+                        />
+
+                    <View
+                        android:layout_width="350dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/colorSecondary"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Viana do Castelo"
+                        android:textAlignment="center"
+                        android:layout_marginTop="63dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/white"
+                        android:textSize="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="IPVC"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="20dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2016 - Presente"
+                        android:paddingTop="5dp"
+                        android:textAlignment="textEnd"
+                        android:paddingRight="10dp"
+                        android:textSize="12dp"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  -->
+
+
+            <!-- Refood -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/simbolo_timeline">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/voluntariado"
+                        />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <View
+                        android:layout_width="350dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/mini_button"
+                        />
+                    <View
+                        android:layout_width="350dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/colorSecondary"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Viana do Castelo"
+                        android:textAlignment="center"
+                        android:layout_marginTop="63dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/white"
+                        android:textSize="10dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Voluntariado Refood"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="20dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2017"
+                        android:paddingTop="5dp"
+                        android:textAlignment="textEnd"
+                        android:paddingRight="10dp"
+                        android:textSize="12dp"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!-- -->
+
+            <!-- Multiusos -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/simbolo_timeline">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/multiusos"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <View
+                        android:layout_width="350dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/mini_button"
+                        />
+                    <View
+                        android:layout_width="350dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/colorSecondary"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Guimarães"
+                        android:textAlignment="center"
+                        android:layout_marginTop="63dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/white"
+                        android:textSize="10dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Multiusos de Guimarães"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="20dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2015 - Presente"
+                        android:paddingTop="5dp"
+                        android:textAlignment="textEnd"
+                        android:paddingRight="10dp"
+                        android:textSize="12dp"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!-- -->
+
+
+            <!-- Escola Secundária Francisco de Holanda -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/simbolo_timeline">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_library_books_black_24dp"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <View
+                        android:layout_width="350dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/mini_button"
+                        />
+                    <View
+                        android:layout_width="350dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/colorSecondary"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Guimarães"
+                        android:textAlignment="center"
+                        android:layout_marginTop="73dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@android:color/white"
+                        android:textSize="10dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Escola Secundária\n Francisco de Holanda"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="20dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2012 - 2015"
+                        android:paddingTop="5dp"
+                        android:textAlignment="textEnd"
+                        android:paddingRight="10dp"
+                        android:textSize="12dp"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!-- -->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

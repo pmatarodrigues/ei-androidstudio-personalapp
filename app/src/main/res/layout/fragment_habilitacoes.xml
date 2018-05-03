@@ -7,20 +7,23 @@
     tools:context=".Habilitacoes"
     >
 
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorSecondary"
+        />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_margin="20dp">
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Habilitações"
-            android:textAllCaps="true"
-            android:textSize="30dp" />
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -36,38 +39,58 @@
                 android:background="@drawable/botao_round"
                 />
 
-            <TextView
+
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textAlignment="center"
-                android:text="Engenharia Informática \n 2º ano"
-                android:paddingTop="30dp"
-                />
+                android:orientation="vertical"
+                android:layout_margin="20dp">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:textAlignment="center"
-                android:textSize="16dp"
-                android:textStyle="bold"
-                android:text="IPVC"
-                android:paddingTop="80dp"
-                />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Habilitações"
+                    android:textColor="@android:color/black"
+                    android:textAllCaps="true"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:paddingBottom="20dp"/>
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="80dp"
-                android:layout_marginTop="115dp"
-                android:src="@drawable/ipvc"
-                android:onClick="showPopup"
-                />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text="Engenharia Informática \n 2º ano"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="IPVC"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ipvc"
+                    android:onClick="showPopup"
+                    />
+            </LinearLayout>
 
         </RelativeLayout>
 
 
     </LinearLayout>
+
+    </RelativeLayout>
+
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -181,7 +204,6 @@
         </RelativeLayout>
 
     </LinearLayout>
-
 
 
 
