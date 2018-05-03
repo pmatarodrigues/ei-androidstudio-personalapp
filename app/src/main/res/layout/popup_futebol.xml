@@ -9,7 +9,7 @@
     >
 
     <TextView
-        android:id="@+id/fechar_popup"
+        android:id="@+id/fechar_popup_futebol"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:textColor="@android:color/white"
@@ -24,7 +24,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/ipvc"
+        android:src="@drawable/vitoria_logo"
         android:layout_marginBottom="10dp"
         />
 
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:text="Instituto Politénico de Viana do Castelo"
+        android:text="Futebol"
         android:textStyle="bold"
         />
 
@@ -41,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:text="Situado em Viana do Castelo, o IPVC é um símbolo da região e tem contribuido para a divulgação do nome da cidade. É constituído por 6 escolas sendo o curso de Engenharia Informática lecionado na Escola Superior de Tecnologia e Gestão."
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptum."
         android:textColor="@android:color/white"
         android:textSize="12dp"
         />

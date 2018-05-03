@@ -1,6 +1,7 @@
 package com.ei.pedro.personalapp;
 
 import android.app.Dialog;
+import android.content.ClipData;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -19,7 +20,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    Dialog ipvc;
+    Dialog popup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        ipvc = new Dialog(this);
+        popup = new Dialog(this);
 
         Inicio inicio = new Inicio();
         android.support.v4.app.FragmentManager manager = getSupportFragmentManager();
@@ -143,17 +144,95 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
+
+    //------------------- Abrir popup quando clicar no elemento
     public void showPopup(View v){
         TextView fecharPopup;
-        ipvc.setContentView(R.layout.popup_ipvc);
-        fecharPopup = (TextView) ipvc.findViewById(R.id.fechar_popup);
-        fecharPopup.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ipvc.dismiss();
-            }
-        });
-        ipvc.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-        ipvc.show();
+
+        switch(v.getId()){
+            //---------- Popups interesses
+            case R.id.interesse_computador:
+                popup.setContentView(R.layout.popup_programacao);
+                fecharPopup = (TextView) popup.findViewById(R.id.fechar_popup_programacao);
+                fecharPopup.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        popup.dismiss();
+                    }
+                });
+                break;
+
+            case R.id.interesses_futebol:
+                popup.setContentView(R.layout.popup_futebol);
+                fecharPopup = (TextView) popup.findViewById(R.id.fechar_popup_futebol);
+                fecharPopup.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        popup.dismiss();
+                    }
+                });
+                break;
+
+            case R.id.interesses_correr:
+                popup.setContentView(R.layout.popup_correr);
+                fecharPopup = (TextView) popup.findViewById(R.id.fechar_popup_correr);
+                fecharPopup.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        popup.dismiss();
+                    }
+                });
+                break;
+
+            case R.id.interesses_jogar:
+                popup.setContentView(R.layout.popup_jogar);
+                fecharPopup = (TextView) popup.findViewById(R.id.fechar_popup_jogar);
+                fecharPopup.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        popup.dismiss();
+                    }
+                });
+                break;
+
+            case R.id.interesses_comer:
+                popup.setContentView(R.layout.popup_comida);
+                fecharPopup = (TextView) popup.findViewById(R.id.fechar_popup_comida);
+                fecharPopup.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        popup.dismiss();
+                    }
+                });
+                break;
+
+            case R.id.interesses_video:
+                popup.setContentView(R.layout.popup_video);
+                fecharPopup = (TextView) popup.findViewById(R.id.fechar_popup_video);
+                fecharPopup.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        popup.dismiss();
+                    }
+                });
+                break;
+
+
+            //---------------- Popup imagem habilitações
+            case R.id.pic_ipvc:
+                popup.setContentView(R.layout.popup_ipvc);
+                fecharPopup = (TextView) popup.findViewById(R.id.fechar_popup);
+                fecharPopup.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        popup.dismiss();
+                    }
+                });
+                break;
+
+        }
+        popup.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        popup.show();
+
     }
 }

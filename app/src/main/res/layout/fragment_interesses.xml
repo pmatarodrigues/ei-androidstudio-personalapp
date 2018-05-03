@@ -64,9 +64,11 @@
 
 
                         <RelativeLayout
+                            android:id="@+id/interesse_computador"
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
                             android:background="@color/colorSecondary"
+                            android:onClick="showPopup"
                             >
 
                             <ImageView
@@ -90,10 +92,12 @@
 
 
                         <RelativeLayout
+                            android:id="@+id/interesses_futebol"
                             android:layout_width="0dp"
                             android:layout_height="60dp"
                             android:layout_weight="1"
                             android:background="@drawable/mini_button"
+                            android:onClick="showPopup"
                             >
 
                             <ImageView
@@ -106,10 +110,12 @@
                         </RelativeLayout>
 
                         <RelativeLayout
+                            android:id="@+id/interesses_correr"
                             android:layout_width="0dp"
                             android:layout_height="60dp"
                             android:layout_weight="1"
                             android:background="@color/colorSecondary"
+                            android:onClick="showPopup"
                             >
 
                             <ImageView
@@ -123,10 +129,12 @@
 
 
                         <RelativeLayout
+                            android:id="@+id/interesses_jogar"
                             android:layout_width="0dp"
                             android:layout_height="60dp"
                             android:layout_weight="1"
                             android:background="@drawable/mini_button"
+                            android:onClick="showPopup"
                             >
 
                             <ImageView
@@ -143,10 +151,12 @@
                     </LinearLayout>
 
                     <RelativeLayout
+                        android:id="@+id/interesses_comer"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:layout_marginTop="30dp"
                         android:background="@color/colorSecondary"
+                        android:onClick="showPopup"
                         >
 
                         <ImageView
@@ -159,10 +169,12 @@
                     </RelativeLayout>
 
                     <RelativeLayout
+                        android:id="@+id/interesses_video"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
                         android:layout_marginTop="30dp"
                         android:background="@drawable/mini_button"
+                        android:onClick="showPopup"
                         >
 
                         <ImageView
