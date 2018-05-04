@@ -2,8 +2,10 @@ package com.ei.pedro.personalapp;
 
 import android.app.Dialog;
 import android.content.ClipData;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -14,8 +16,14 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -67,13 +75,18 @@ public class MainActivity extends AppCompatActivity
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
+        Intent browserIntent = null;
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_github) {
+            browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/pmatarodrigues"));
+            startActivity(browserIntent);
             return true;
         }
         if (id == R.id.action_linkedin) {
+            browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.github.com/pmatarodrigues"));
+            startActivity(browserIntent);
             return true;
         }
 
@@ -146,10 +159,10 @@ public class MainActivity extends AppCompatActivity
 
 
     //------------------- Abrir popup quando clicar no elemento
-    public void showPopup(View v){
+    public void showPopup(View v) {
         TextView fecharPopup;
 
-        switch(v.getId()){
+        switch (v.getId()) {
             //---------- Popups interesses
             case R.id.interesse_computador:
                 popup.setContentView(R.layout.popup_programacao);
@@ -233,6 +246,18 @@ public class MainActivity extends AppCompatActivity
         }
         popup.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         popup.show();
-
     }
+
+
+    //----------------------------- ABRIR LINK ----------------------------
+    public void abrirLink(View v) {
+        Intent browserIntent = null;
+        switch (v.getId()) {
+            case R.id.mapa_guimaraes:
+                browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.pt/maps/place/Guimaraes/@41.4438712,-8.2934904,881m/data=!3m1!1e3!4m5!3m4!1s0xd24f0191ff06bb3:0x53e284e8981c154a!8m2!3d41.44253!4d-8.2917857"));
+                break;
+        }
+        startActivity(browserIntent);
+    }
+
 }

@@ -1,14 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SobreMim">
+    tools:context=".SobreMim"
+    >
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content">
 
-</FrameLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorSecondary"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                >
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/background_botao_round"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Sobre mim"
+                        android:textColor="@android:color/black"
+                        android:textAllCaps="true"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:paddingBottom="20dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="150dp"
+                                android:layout_height="230dp"
+                                android:src="@drawable/interesses_pic_vitoria"
+                                android:scaleType="centerCrop"
+                                />
+
+                            <ImageView
+                                android:layout_marginTop="20dp"
+                                android:layout_width="150dp"
+                                android:layout_height="220dp"
+                                android:src="@drawable/interesses_pic_viajar"
+                                android:scaleType="centerCrop"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="190dp"
+                                android:scaleType="center"
+                                android:background="@drawable/pic_eu"
+                                />
+
+                            <ImageView
+                                android:layout_marginTop="20dp"
+                                android:layout_width="130dp"
+                                android:layout_height="130dp"
+                                android:background="@drawable/pic_eu_dois"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
