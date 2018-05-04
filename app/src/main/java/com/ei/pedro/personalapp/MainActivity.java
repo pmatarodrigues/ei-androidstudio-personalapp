@@ -79,12 +79,12 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_github) {
-            browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/pmatarodrigues"));
+        if (id == R.id.action_linkedin) {
+            browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/pmatarodrigues"));
             startActivity(browserIntent);
             return true;
         }
-        if (id == R.id.action_linkedin) {
+        if (id == R.id.action_github) {
             browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.github.com/pmatarodrigues"));
             startActivity(browserIntent);
             return true;
@@ -303,7 +303,7 @@ public class MainActivity extends AppCompatActivity
                 break;
 
             case R.id.btn_linkedin:
-                browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/pmatarodrigues"));
+                browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/pmatarodrigues"));
                 break;
 
             case R.id.btn_github:
