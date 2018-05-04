@@ -42,7 +42,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptum."
+        android:text="O Mundo foi criado para ser explorado e é por isso que o adoro fazer.
+Gosto de passear e descobrir novos caminhos em todos os locais que visito."
         android:textColor="@android:color/white"
         android:textSize="12dp"
         />

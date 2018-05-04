@@ -41,7 +41,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptum."
+        android:text="Sou desde criança um apaixonado pelos computadores e todo o tipo de equipamentos eletrónicos.
+Sempre gostei de perceber o funcionamento de tudo em que mexia, chegando até a desmontar e, infelizmente, estragar muitos equipamentos."
         android:textColor="@android:color/white"
         android:textSize="12dp"
         />

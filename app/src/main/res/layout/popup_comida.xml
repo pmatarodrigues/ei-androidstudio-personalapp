@@ -41,7 +41,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptum."
+        android:text="Quem não gosta de comer?
+Sendo uma das minhas atividades preferidas, as refeições são sempre as melhores fases do dia.
+Os meus pratos preferidos são Coelho estufado e Fracnesinha Especial."
         android:textColor="@android:color/white"
         android:textSize="12dp"
         />
