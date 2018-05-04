@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="340dp"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    android:background="@drawable/background_popups"
+    android:layout_gravity="center"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/interesses_pic_vitoria"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/fechar_popup_pic_um"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textColor="@android:color/white"
+            android:text="Fechar"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:background="@drawable/background_gradient"
+            android:layout_marginTop="440dp"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

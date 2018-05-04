@@ -243,6 +243,51 @@ public class MainActivity extends AppCompatActivity
                 });
                 break;
 
+            //---------------- Popoups Galeria
+            case R.id.galeria_pic_um:
+                popup.setContentView(R.layout.popup_pic_um);
+                fecharPopup = (TextView) popup.findViewById(R.id.fechar_popup_pic_um);
+                fecharPopup.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        popup.dismiss();
+                    }
+                });
+                break;
+
+            case R.id.galeria_pic_dois:
+                popup.setContentView(R.layout.popup_pic_dois);
+                fecharPopup = (TextView) popup.findViewById(R.id.fechar_popup_pic_dois);
+                fecharPopup.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        popup.dismiss();
+                    }
+                });
+                break;
+
+            case R.id.galeria_pic_tres:
+                popup.setContentView(R.layout.popup_pic_tres);
+                fecharPopup = (TextView) popup.findViewById(R.id.fechar_popup_pic_tres);
+                fecharPopup.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        popup.dismiss();
+                    }
+                });
+                break;
+
+            case R.id.galeria_pic_quatro:
+                popup.setContentView(R.layout.popup_pic_quatro);
+                fecharPopup = (TextView) popup.findViewById(R.id.fechar_popup_pic_quatro);
+                fecharPopup.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        popup.dismiss();
+                    }
+                });
+                break;
+
         }
         popup.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         popup.show();
