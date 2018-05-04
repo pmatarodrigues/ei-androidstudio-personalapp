@@ -19,7 +19,7 @@
         <View
             android:layout_width="500dp"
             android:layout_height="480dp"
-            android:layout_marginTop="204dp"
+            android:layout_marginTop="340dp"
             android:layout_centerHorizontal="true"
             android:background="#1F2939 "
             />
@@ -37,7 +37,7 @@
                 >
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="250dp"
                     android:layout_centerHorizontal="true"
                     android:background="@drawable/background_botao_round"
                     />
@@ -61,23 +61,34 @@
                         android:paddingBottom="20dp"
                         />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nasci em Guimarães em Dezembro de 1997.
+Gosto de estar atualizado em relação à atualidade, tanto a nível nacional como internacional. \n
+Sou um fã de humor e standup comedy, tendo já criado duas páginas relacionadas com o tema nas redes sociais, ambas com dezenas de milhares de seguidores."
+                        />
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
                         android:orientation="horizontal"
                         >
                         <Button
+                            android:id="@+id/btn_linkedin"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:layout_margin="10dp"
                             android:text="Linkedin"
                             android:textColor="@android:color/white"
-
                             android:background="@drawable/background_gradient"
+                            android:onClick="abrirLink"
                             />
 
                         <Button
+                            android:id="@+id/btn_github"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -85,6 +96,7 @@
                             android:text="Github"
                             android:textColor="@android:color/white"
                             android:background="@drawable/background_botao_degrade"
+                            android:onClick="abrirLink"
                             />
 
                     </LinearLayout>

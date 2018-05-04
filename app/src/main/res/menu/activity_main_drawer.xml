@@ -20,20 +20,19 @@
             android:id="@+id/nav_interesses"
             android:icon="@drawable/interesses"
             android:title="@string/titulo_interesses" />
-
     </group>
 
-    <item android:title="Pessoal">
-        <menu>
-            <item
-                android:id="@+id/nav_deondevenho"
-                android:icon="@drawable/icon_deondevenho"
-                android:title="@string/titulo_de_onde_venho" />
-            <item
-                android:id="@+id/nav_sobremim"
-                android:icon="@drawable/icon_quemsou"
-                android:title="@string/titulo_sobre_mim" />
-        </menu>
-    </item>
+    <group android:checkableBehavior="single">
+        <item android:title="Pessoal">
+                <item
+                    android:id="@+id/nav_deondevenho"
+                    android:icon="@drawable/icon_deondevenho"
+                    android:title="@string/titulo_de_onde_venho" />
+                <item
+                    android:id="@+id/nav_sobremim"
+                    android:icon="@drawable/icon_quemsou"
+                    android:title="@string/titulo_sobre_mim" />
+        </item>
+    </group>
 
 </menu>

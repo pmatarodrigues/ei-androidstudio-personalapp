@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity
                     .replace(R.id.fragment_layout, inicio, inicio.getTag()).commit();
 
         } else if (id == R.id.nav_skills) {
-            Toast.makeText(this, "Skills", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Habilitações", Toast.LENGTH_SHORT).show();
 
             Habilitacoes habilitacoes = new Habilitacoes();
             android.support.v4.app.FragmentManager manager = getSupportFragmentManager();
@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity
                     .replace(R.id.fragment_layout, habilitacoes, habilitacoes.getTag())
                     .commit();
         } else if (id == R.id.nav_cronologia) {
-            Toast.makeText(this, "Cronologia", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Percurso", Toast.LENGTH_SHORT).show();
 
             Cronologia cronologia = new Cronologia();
             android.support.v4.app.FragmentManager manager = getSupportFragmentManager();
@@ -300,6 +300,14 @@ public class MainActivity extends AppCompatActivity
         switch (v.getId()) {
             case R.id.mapa_guimaraes:
                 browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.pt/maps/place/Guimaraes/@41.4438712,-8.2934904,881m/data=!3m1!1e3!4m5!3m4!1s0xd24f0191ff06bb3:0x53e284e8981c154a!8m2!3d41.44253!4d-8.2917857"));
+                break;
+
+            case R.id.btn_linkedin:
+                browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/pmatarodrigues"));
+                break;
+
+            case R.id.btn_github:
+                browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.github.com/pmatarodrigues"));
                 break;
         }
         startActivity(browserIntent);
